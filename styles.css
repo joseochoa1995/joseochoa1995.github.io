@@ -1,97 +1,98 @@
 body {
-    background-color: #222;
-    color: #fff;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-    /* Estilo para el encabezado */
+  background-color: #222;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
 header {
-  width: 100%; 
-  overflow: hidden; 
+  width: 100%;
+  overflow: hidden;
 }
 
 .encabezado-imagen {
-  width: 100%; 
-  height: auto; 
-  display: block; 
-  margin: 0 auto; 
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
-  
-  main {
-    padding: 20px;
-  }
-  
-  .banner {
-    width: 100%;
-    height: 300px;
-    overflow: hidden;
-    position: relative;
-    margin-bottom: 20px;
-  }
-  
-  .banner-wrapper {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    transition: transform 0.5s ease-in-out;
-  }
-  
-  .banner-item {
-    flex: 0 0 100%;
-    height: 100%;
-  }
-  
-  .banner iframe {
-    width: 100%;
-    height: 100%;
-    border: none;
-  }
-  
-  .section {
-    margin-bottom: 40px;
-  }
-  
-  .section h2 {
-    text-align: center;
-    color: #fff;
-    background-color: #444;
-    padding: 10px;
-    margin: 0;
-  }
-  
-  .videos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
-  .video-item {
-    flex: 1 1 30%;
-    margin: 10px;
-    box-sizing: border-box;
-  }
-  
-  .video-item iframe {
-    width: 100%;
-    height: 200px;
-  }
-  
-  .author-info {
-    text-align: center;
-  }
-  
-  .author-info p {
-    text-align: justify;
-    margin: 0;
-    padding: 0 10px;
-  }
-  
-  .author-info a {
-    color: #f00;
-    text-decoration: none;
-  }
-  
 
+main {
+  padding: 20px;
+}
 
+.banner {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.banner-wrapper {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.banner-item {
+  flex: 0 0 100%;
+  height: 100%;
+}
+
+.banner iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.section {
+  margin-bottom: 40px;
+}
+
+.section h2 {
+  text-align: center;
+  color: #fff;
+  background-color: #444;
+  padding: 10px;
+  margin: 0;
+}
+
+.videos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.video-item {
+  flex: 1 1 30%;
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+.video-item iframe {
+  width: 100%;
+  height: 200px;
+}
+
+.author-info {
+  text-align: center;
+}
+
+.author-heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.author-info p {
+  text-align: center;
+  margin: 0;
+  padding: 0 10px;
+}
+
+.author-info a {
+  color: #f00;
+  text-decoration: none;
+}
