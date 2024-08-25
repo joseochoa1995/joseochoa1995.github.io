@@ -1,11 +1,10 @@
 document.addEventListener("DOMContentLoaded", function() {
     const bannerWrapper = document.getElementById('bannerWrapper');
-    const sections = document.querySelectorAll('.section .video-item iframe');
-    
+    const iframes = document.querySelectorAll('.section .video-item iframe');
     
     bannerWrapper.innerHTML = '';
   
-    sections.forEach(iframe => {
+    iframes.forEach(iframe => {
       const clone = iframe.cloneNode(true);
       const bannerItem = document.createElement('div');
       bannerItem.className = 'banner-item';
@@ -23,7 +22,5 @@ document.addEventListener("DOMContentLoaded", function() {
       bannerWrapper.style.transform = `translateX(${offset}%)`;
     }
   
-    
     setInterval(updateBanner, 5000);
-  });
-  
+});
