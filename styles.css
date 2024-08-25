@@ -6,15 +6,18 @@ body {
     padding: 0;
   }
   
-  header {
-    text-align: center;
-    margin: 20px 0;
-  }
-  
-  header img {
-    max-width: 100%;
-    height: auto;
-  }
+    /* Estilo para el encabezado */
+header {
+  width: 100%; 
+  overflow: hidden; 
+}
+
+.encabezado-imagen {
+  width: 100%; 
+  height: auto; 
+  display: block; 
+  margin: 0 auto; 
+}
   
   main {
     padding: 20px;
@@ -90,3 +93,5 @@ body {
     text-decoration: none;
   }
   
+
+
